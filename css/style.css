@@ -81,6 +81,37 @@ p {
   background-color: #232122;
 }
 
-.button-active {
+.color-button-active {
   border: solid 1px #232122;
+}
+
+.page-product-button-block {
+  margin-top: 1rem;
+}
+
+.button {
+  width: 18rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 12px;
+  font-weight: 300;
+  border-radius: 3px;
+  border: none; 
+  background-color: transparent; 
+}
+
+.button-select-size {
+  background-color: #171717;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-find {
+  background-color: #fff;
+  border: 1px solid #c6c6c6;  
+}
+
+.button-size-help {
+  width: auto;
+  padding-left: 0;
+  padding-top: 0.5rem;
 }
