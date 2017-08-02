@@ -28,14 +28,16 @@ body {
   overflow-y: auto;
 }
 
-.page-product-desc {
+.page-product-card {
   padding-left: 1rem;
   padding-right: 1rem;
   display: flex;
   flex-direction: column;
 }
 
-.page-product-desc-price {
+.page-product-card-price {
+  padding-top: 0.3rem;
+  font-weight: 400;
   display: flex;
   padding-top: 0.75rem;
   justify-content: space-between;
@@ -51,15 +53,15 @@ p {
 	font-size: 0.75rem;
 }
 
-.page-product-desc-color {
+.page-product-card-color {
   display: flex;
 }
 
-.page-product-desc-color p {
+.page-product-card-color p {
   margin: 0;
 }
 
-.page-product-desc-color-select {
+.page-product-card-color-select {
   display: flex;
   padding-top: 1rem;
   padding-bottom: 2rem;
