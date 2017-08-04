@@ -6,13 +6,12 @@ html {
 
 .page-header {
   padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 1px solid #c6c6c6; 
 }
 
 .page-header-logo {
+  display: block;
+  margin: auto; 
   width: 138px;
   height: 10px;
 }
@@ -20,7 +19,7 @@ html {
 .page-product-title {
   padding: 1rem;  
   margin: 0;
-  font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;;
+  font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 1.25rem;
   line-height: 1.2;
   font-weight: 300;
@@ -151,7 +150,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  border-top: 1px solid #c6c6c6;  
+   
 }
 
 .page-product-list-item-title {
@@ -162,13 +161,36 @@ html {
   line-height: 1.25;
 }
 
+.page-product-list-item::after {
+  content: url(../img/triangle_close.svg);
+}
+
+.page-product-list-item-active::after {
+  transform: rotate(180deg);
+}
+
 .page-product-list-item-content {
   margin: 0;
   padding-right: 1rem;
   padding-left: 1rem;
+  padding-bottom: 1.93rem;
   font-family: Lora;
   font-size: 0.875rem;
   line-height: 1.75;
+  border-bottom: 1px solid #c6c6c6;   
+}
+
+.page-product-list-item-content p {
+  margin: 0;
+  padding: 0;
+  font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
+}
+
+.page-product-list-item-content ul {
+  margin: 0;
+  padding: 0;
+  font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
+  list-style-type: none;
 }
 
 .page-product-list-item-content-list {
@@ -192,7 +214,7 @@ html {
 }
 
 .page-product-recommend-title-block {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.45rem;
   margin-left: 1rem;
   border-bottom: 1px solid #171717;  
 }
