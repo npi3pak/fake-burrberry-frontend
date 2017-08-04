@@ -4,19 +4,19 @@ html {
   color: #171717;
 }
 
-.page-header {
+.header {
   padding: 1rem;
   border-bottom: 1px solid #c6c6c6; 
 }
 
-.page-header-logo {
+.header-logo {
   display: block;
   margin: auto; 
   width: 138px;
   height: 10px;
 }
 
-.page-product-title {
+.product-title {
   padding: 1rem;  
   margin: 0;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
@@ -25,20 +25,20 @@ html {
   font-weight: 300;
 }
 
-.page-product-photo {
+.product-photo {
   display: flex;
   flex-direction: row;
   overflow-y: auto;
 }
 
-.page-product-card {
+.product-card {
   padding-right: 1rem;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
 }
 
-.page-product-card-price {
+.product-card-price {
   margin-top: 0.2rem;
   display: flex;
   justify-content: space-between;
@@ -47,14 +47,14 @@ html {
 
 
 
-.page-product-card-price-title {
+.product-card-price-title {
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 1rem; 
   font-weight: normal;
   line-height: 1.19;
 }
 
-.page-product-card-item-title {
+.product-card-item-title {
   margin-top: 0.2rem; 
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 0.75rem;
@@ -62,11 +62,11 @@ html {
   line-height: 1.33;
 }
 
-.page-product-card-color {
+.product-card-color {
   display: flex;
 }
 
-.page-product-card-color-title {
+.product-card-color-title {
   margin: 0;
   margin-top: 0.2rem; 
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
@@ -75,7 +75,7 @@ html {
   line-height: 1.33;
 }
 
-.page-product-card-color-select {
+.product-card-color-select {
   padding-top: 1rem;
   padding-bottom: 2rem;
   display: flex;
@@ -105,7 +105,7 @@ html {
   border: 1px solid #232122;
 }
 
-.page-product-button-block {
+.product-button-block {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -142,7 +142,7 @@ html {
   align-self: flex-start;
 }
 
-.page-product-list-item {
+.product-list-item {
   padding-top: 2rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
@@ -153,7 +153,7 @@ html {
    
 }
 
-.page-product-list-item-title {
+.product-list-item-title {
   margin: 0;
   font-family: Raleway;
   font-size: 1rem;
@@ -161,15 +161,15 @@ html {
   line-height: 1.25;
 }
 
-.page-product-list-item::after {
+.product-list-item::after {
   content: url(../img/triangle_close.svg);
 }
 
-.page-product-list-item-active::after {
+.product-list-item-active::after {
   transform: rotate(180deg);
 }
 
-.page-product-list-item-content {
+.product-list-item-content {
   margin: 0;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -180,20 +180,20 @@ html {
   border-bottom: 1px solid #c6c6c6;   
 }
 
-.page-product-list-item-content p {
+.product-list-item-content p {
   margin: 0;
   padding: 0;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
 }
 
-.page-product-list-item-content ul {
+.product-list-item-content ul {
   margin: 0;
   padding: 0;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
   list-style-type: none;
 }
 
-.page-product-list-item-content-list {
+.product-list-item-content-list {
   padding-top: 0.4rem;  
   padding-right: 1rem;
   padding-bottom: 1.9rem;
@@ -205,7 +205,7 @@ html {
   list-style-type: none;
 }
 
-.page-product-recommend {
+.recommend {
   padding-top: 3.1rem; 
   display: flex;
   flex-direction: column;
@@ -213,38 +213,29 @@ html {
   border-top: 1px solid #c6c6c6;  
 }
 
-.page-product-recommend-title-block {
+.recommend-title {
   padding-bottom: 0.45rem;
-  margin-left: 1rem;
+  margin: 0;
+  margin-left: 1rem; 
+  font-size: 1rem;
+  font-weight: 500;
+
   border-bottom: 1px solid #171717;  
 }
 
-.page-product-recommend-title {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.page-product-recommend-block {
+.recommend-cards {
   padding-top: 0.5rem;
   display: flex;
   flex-wrap: wrap;  
 }
 
-.recommend-image-item {
-  padding-right: 0.8rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem;
-  flex-basis: 130px;
-}
-
-.recommend-image-item-pic {
+.recommend-image {
   padding-top: 1rem; 
   width: 130px;
   height: 174px;
 }
 
-.recommend-image-item-title {
+.recommend-image-title {
   padding-top: 0.2rem; 
   margin: 0;
   font-family: Lora; 
@@ -253,7 +244,7 @@ html {
   font-weight: 400;  
 }
 
-.recommend-image-item-price {
+.recommend-image-price {
   padding-top: 0.5rem;  
   margin: 0;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
@@ -272,7 +263,7 @@ html {
   text-decoration: inherit;
 }
 
-.page-product-more {
+.more {
   padding-top: 2rem;
   padding-bottom: 4rem;
   display: flex;
@@ -280,7 +271,7 @@ html {
   align-items: flex-start;
 }
 
-.page-product-more-title {
+.more-title {
   padding-bottom: 0.5rem;
   margin: 0;
   margin-left: 1rem;
@@ -291,16 +282,16 @@ html {
   border-bottom: 1px solid #171717;  
 }
 
-.page-product-more-links {
+.more-links {
   padding-top: 0.4rem;
   padding-left: 1rem;
 }
 
- .page-product-more-link-block {
+ .more-link-block {
   padding-top: 1rem;
 } 
 
-.page-product-more-link-item {
+.more-link-item {
   text-decoration: inherit;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;;
   font-style: italic; 
@@ -309,15 +300,15 @@ html {
   color: #171717;
 }
 
-.page-product-footer {
+.footer {
   padding-bottom: 2rem;
   background-color: #f3f3f3;
 }
 
-.page-product-footer-button-block {
+.footer-button-block {
   padding-top: 1.4rem;
 }
-.page-product-footer-button {
+.footer-button {
   padding-left: 1rem;
   padding-top: 0.6rem;
   padding-bottom: 0.5rem;
@@ -331,14 +322,14 @@ html {
 
 }
 
-.page-product-footer-help-block {
+.footer-help-block {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
 
 }
 
-.page-product-footer-help-title {
+.footer-help-title {
   margin: 0;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;;
   font-size: 1rem;
@@ -346,13 +337,13 @@ html {
   color: #171717;
 }
 
-.page-product-footer-find-more-block {
+.footer-find-more-block {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
 }
 
-.page-product-footer-find-more-link {
+.footer-find-more-link {
   margin-right: 0.1rem;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;;
   font-size: 14px;
