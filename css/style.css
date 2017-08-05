@@ -27,7 +27,7 @@ html {
   font-weight: 300;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .header {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -82,7 +82,7 @@ html {
   line-height: 1.33;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .product-photo {
     margin: 0;
     width: auto;
@@ -204,7 +204,7 @@ html {
   align-items: baseline;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .product-list-item {
     padding-left: 0;
     padding-top: 1.5rem;
@@ -229,7 +229,7 @@ html {
   transform: rotate(180deg);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .product-list-item::after {
     content: none;
   }
@@ -248,7 +248,7 @@ html {
   border-bottom: 1px solid #c6c6c6;   
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .product-list-item-content {
     padding-left: 0;
     padding-bottom: 0;
@@ -257,7 +257,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .product-list-item-hidden {
     display: none;
   }
@@ -292,7 +292,7 @@ html {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .delivery {
     padding-top: 1.45rem;  
     display: block;
@@ -391,7 +391,7 @@ html {
   text-decoration: inherit;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .recommend {
     padding-left: 0.5rem;
     padding-top: 1rem; 
@@ -470,7 +470,7 @@ html {
   color: #171717;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .more {
     display: none;
   }
@@ -534,7 +534,7 @@ html {
   text-decoration: inherit;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .footer-button-block {
     padding-left: 0;
     padding-top: 0.75rem;
@@ -560,7 +560,7 @@ html {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .footer-menu {
     display: block;
     padding-top: 0.9rem; 
