@@ -92,6 +92,8 @@ html {
   .product-card {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0; 
     border-bottom: none;
   }
 
@@ -206,7 +208,7 @@ html {
 
 @media only screen and (min-width: 48rem) {
   .product-list-item {
-    padding-left: 0;
+    padding-left: 0.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     padding-right: 0;
@@ -250,9 +252,9 @@ html {
 
 @media only screen and (min-width: 48rem) {
   .product-list-item-content {
-    padding-left: 0;
+    padding-left: 0.5rem;
     padding-bottom: 0;
-    padding-right: 0;
+    padding-right: 0.5rem;
     border-bottom: none;
   }
 }
@@ -410,6 +412,7 @@ html {
   .recommend-cards {
     padding-left: 0;
     padding-top: 0;
+    padding-right: 0.5rem;
     margin-right: 0;
   }
 
@@ -563,7 +566,7 @@ html {
 @media only screen and (min-width: 48rem) {
   .footer-menu {
     display: block;
-    padding-top: 0.9rem; 
+    padding-top: 0.95rem; 
   }
   
   .footer-menu-title {
