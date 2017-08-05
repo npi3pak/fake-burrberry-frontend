@@ -61,7 +61,6 @@ html {
 }
 
 .product-card-price {
-  margin-top: 0.2rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -76,6 +75,7 @@ html {
 
 .product-card-item-title {
   margin-top: 0.2rem; 
+  margin-right: 0.1rem;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 0.75rem;
   font-weight: 400;
@@ -353,7 +353,7 @@ html {
 .recommend-cards {
   padding-left: 0.5rem;
   padding-top: 0.5rem;
-  padding-right: 0.4rem;
+  padding-right: 0.8rem;
   display: flex;
   flex-wrap: wrap;  
 }
@@ -504,7 +504,7 @@ html {
 }
 
 .footer-help-block {
-  padding-top: 1rem;
+  padding-top: 1.1rem;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
   display: flex;
