@@ -10,8 +10,8 @@ html {
 }
 
 .header-logo {
-  display: block;
   margin: auto; 
+  display: block;
   width: 138px;
   height: 10px;
 }
@@ -19,8 +19,8 @@ html {
 .product-title {
   padding: 1rem;  
   margin: 0;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -43,18 +43,18 @@ html {
 
 .product-photo {
   padding: 0;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   flex-direction: row;
   overflow-y: auto;
 }
 
 .product-card {
-  padding-right: 1rem;
   padding-left: 1rem; 
-  margin-right: -0.5rem;
+  padding-right: 1rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   flex-direction: column;
   border-bottom: solid 1px #c6c6c6;
@@ -88,23 +88,26 @@ html {
     width: auto;
     height: 576px;
   }
+
   .product-card {
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
     border-bottom: none;
   }
+
   .product-card-price {
     margin-top: 0;
     padding-bottom: 0.85rem;
   }
+
   .product-card-price-title {
     margin: 0;
   }
+
   .product-card-item-title {
     margin: 0;
   }
 }
-
 
 .product-card-color {
   display: flex;
@@ -182,20 +185,20 @@ html {
 }
 
 .button-size-help {
+  padding-left: 0;
   padding-top: 1.65rem;
   padding-bottom: 3.05rem;
-  padding-left: 0;
   margin: 0;
   align-self: flex-start;
 }
 
 .product-list-item {
-  padding-top: 2rem;
-  padding-right: 1rem;
-  padding-bottom: 2rem;
   padding-left: 1rem;
-  margin-right: -0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -203,10 +206,10 @@ html {
 
 @media only screen and (min-width: 768px) {
   .product-list-item {
-    padding-right: 0;
+    padding-left: 0;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -234,11 +237,11 @@ html {
 
 .product-list-item-content {
   margin: 0;
-  padding-right: 1rem;
   padding-left: 1rem;
   padding-bottom: 1.93rem;
-  margin-right: -0.5rem;
+  padding-right: 1rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   font-family: Lora;
   font-size: 0.875rem;
   line-height: 1.75;
@@ -247,9 +250,9 @@ html {
 
 @media only screen and (min-width: 768px) {
   .product-list-item-content {
-    padding-right: 0;
     padding-left: 0;
     padding-bottom: 0;
+    padding-right: 0;
     border-bottom: none;
   }
 }
@@ -261,23 +264,23 @@ html {
 }
 
 .product-list-item-content p {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
 }
 
 .product-list-item-content ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-family: Lora, Helvetica Neue, Helvetica, Arial, serif;
   list-style-type: none;
 }
 
 .product-list-item-content-list {
-  padding-top: 0.4rem;  
-  padding-right: 1rem;
-  padding-bottom: 1.9rem;
   padding-left: 1rem;
+  padding-top: 0.4rem;  
+  padding-bottom: 1.9rem;
+  padding-right: 1rem;
   margin: 0;
   font-family: Lora;
   font-size: 0.875rem;
@@ -291,8 +294,8 @@ html {
 
 @media only screen and (min-width: 768px) {
   .delivery {
-    display: block;
     padding-top: 1.45rem;  
+    display: block;
   }
 
   .delivery-title {
@@ -322,8 +325,8 @@ html {
 
 .recommend {
   padding-top: 3.1rem; 
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -336,14 +339,13 @@ html {
   margin-left: 1rem; 
   font-size: 1rem;
   font-weight: 500;
-
   border-bottom: 1px solid #171717;  
 }
 
 
 .recommend-cards {
-  padding-top: 0.5rem;
   padding-left: 0.5rem;
+  padding-top: 0.5rem;
   padding-right: 0.4rem;
   display: flex;
   flex-wrap: wrap;  
@@ -357,8 +359,8 @@ html {
 }
 
 .recommend-image-title {
-  padding-top: 0.2rem; 
   padding-left: 0.5rem;
+  padding-top: 0.2rem; 
   margin: 0;
   font-family: Lora; 
   font-size: 1rem;
@@ -367,8 +369,8 @@ html {
 }
 
 .recommend-image-price {
-  padding-top: 0.5rem;  
   padding-left: 0.5rem;
+  padding-top: 0.5rem;  
   margin: 0;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, serif;
   font-size: 0.75rem;
@@ -386,24 +388,24 @@ html {
 
 @media only screen and (min-width: 768px) {
   .recommend {
-    padding-top: 1rem; 
     padding-left: 0.5rem;
+    padding-top: 1rem; 
     padding-bottom: 3rem;
     border-top: none;
   }
+
   .recommend-title {
-    padding-top: 0.2rem;
-    padding-left: 0.5rem; 
     padding-left: 0;
+    padding-top: 0.2rem;
     margin: 0;
     margin-left: 0; 
     margin-top: 0.15rem;
   }
 
   .recommend-cards {
-    margin-right: 0;
     padding-left: 0;
     padding-top: 0;
+    margin-right: 0;
   }
 
   .recommend-image {
@@ -421,16 +423,16 @@ html {
   }
 
   .recommend-link {
-    padding-right: 0.75rem;
     padding-left: 0;
+    padding-right: 0.75rem;
   }
 }
 
 .more {
   padding-top: 2rem;
   padding-bottom: 4rem;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -448,8 +450,8 @@ html {
 }
  
  .more-links {
-  padding-top: 0.4rem;
   padding-left: 1rem;
+  padding-top: 0.4rem;
 }  
 
 .more-link-item {
@@ -476,9 +478,10 @@ html {
 
 .footer-button-block {
   padding-top: 1.4rem;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
+
 .footer-button {
   padding-left: 1rem;
   padding-top: 0.6rem;
@@ -490,16 +493,14 @@ html {
   background-color: transparent;
   border: none;
   opacity: 0.6;
-
 }
 
 .footer-help-block {
   padding-top: 1rem;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   justify-content: center;
-
 }
 
 .footer-help-title {
@@ -512,8 +513,8 @@ html {
 
 .footer-find-more-block {
   padding-top: 1rem;
-  margin-right: -0.5rem;
   margin-left: -0.5rem;
+  margin-right: -0.5rem;
   display: flex;
   justify-content: center;
 }
@@ -528,14 +529,12 @@ html {
   text-decoration: inherit;
 }
 
-
 @media only screen and (min-width: 768px) {
-
   .footer-button-block {
-    padding-top: 0.75rem;
     padding-left: 0;
-    margin-right: 0;
+    padding-top: 0.75rem;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .footer-button {
@@ -556,12 +555,12 @@ html {
   display: none;
 }
 
-
 @media only screen and (min-width: 768px) {
   .footer-menu {
     display: block;
     padding-top: 0.9rem; 
   }
+  
   .footer-menu-title {
     font-size: 0.75rem;
     font-weight: 700;
