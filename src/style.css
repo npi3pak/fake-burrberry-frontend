@@ -224,7 +224,7 @@ html {
 }
 
 .product-list-item::after {
-  content: url(../img/triangle_close.svg);
+  content: url(/img/triangle_close.svg);
 }
 
 .product-list-item-active::after {
