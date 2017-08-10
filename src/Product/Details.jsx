@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import ColorButton from './ColorButton'
-import InteractionButton from './InteractionButton'
+import React, { Component } from "react";
+import ColorButton from "./ColorButton";
+import InteractionButton from "./InteractionButton";
 
 class Details extends Component {
   render() {
@@ -14,16 +14,16 @@ class Details extends Component {
           <p className="product-card-color-title">Colour: Honey</p>
         </div>
         <div className="product-card-color-select">
-          <ColorButton/>
-          <ColorButton/>
+          <ColorButton />
+          <ColorButton />
         </div>
         <div className="product-button-block">
-              {/* <button className="button button-select-size" type="button">SELECT A SIZE</button>
+          {/* <button className="button button-select-size" type="button">SELECT A SIZE</button>
           <button className="button button-find" type="button">FIND IN STORE</button>
           <button className="button button-size-help" type="button">NEED SIZE HELP?</button>     */}
-          <InteractionButton/>
-          <InteractionButton/>
-          <InteractionButton/>
+          <InteractionButton />
+          <InteractionButton />
+          <InteractionButton />
         </div>
       </div>
     );

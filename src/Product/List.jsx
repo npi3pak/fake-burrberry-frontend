@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ListItem from './ListItem';
+import React, { Component } from "react";
+import ListItem from "./ListItem";
 
 const DescriptionContent = `
   <div>
@@ -21,14 +21,18 @@ const DescriptionContent = `
       <li>Item 39428531</li>
     </ul>
   </div>
-`
+`;
 
 class List extends Component {
   render() {
     return (
       <div>
-        <ListItem title={'DESCRIPTION'} content={DescriptionContent} active={true}/>
-        <ListItem title={'SHIPPING & RETURNS'} active={false}/>
+        <ListItem
+          title={"DESCRIPTION"}
+          content={DescriptionContent}
+          active={true}
+        />
+        <ListItem title={"SHIPPING & RETURNS"} active={false} />
       </div>
     );
   }

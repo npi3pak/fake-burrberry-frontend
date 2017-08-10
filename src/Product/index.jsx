@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import Photo from './Photo';
-import Details from './Details';
-import List from './List';
-import Delivery from './Delivery';
+import React, { Component } from "react";
+import Photo from "./Photo";
+import Details from "./Details";
+import List from "./List";
+import Delivery from "./Delivery";
 
 class Product extends Component {
   render() {
@@ -13,14 +13,14 @@ class Product extends Component {
         </div>
         <div className="row">
           <div className="col-xs-12 col-md-7">
-            <Photo/>
+            <Photo />
           </div>
           <div className="col-xs-12 col-md-5">
-            <Details/>
+            <Details />
           </div>
         </div>
-        <List/>
-         <Delivery/> 
+        <List />
+        <Delivery />
       </div>
     );
   }

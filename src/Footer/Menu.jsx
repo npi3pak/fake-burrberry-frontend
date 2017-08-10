@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Menu extends Component {
   render() {
@@ -34,8 +34,8 @@ class Menu extends Component {
           </div>
         </div>
       </nav>
-    )
-  }   
+    );
+  }
 }
 
 export default Menu;
