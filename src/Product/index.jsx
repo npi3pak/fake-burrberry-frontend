@@ -20,7 +20,7 @@ class Product extends Component {
           </div>
         </div>
         <List/>
-        <Delivery/>
+         <Delivery/> 
       </div>
     );
   }

@@ -6,9 +6,9 @@ class More extends Component {
       <div className="more">
         <h2 className="more-title">MORE FOR YOU</h2>
         <div className="more-links"> 
-          <a className="more-link-item" href="#">Men’s Black Trench Coats</a>
-          <a className="more-link-item" href="#">Men’s Short Trench Coats</a>
-          <a className="more-link-item" href="#">Men’s Long Trench Coats</a>
+          <a className="more-link-item">Men’s Black Trench Coats</a>
+          <a className="more-link-item">Men’s Short Trench Coats</a>
+          <a className="more-link-item">Men’s Long Trench Coats</a>
         </div> 
       </div>
     );
