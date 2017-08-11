@@ -1,5 +1,52 @@
 import React, { Component } from "react";
 import Card from "./Card";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  padding-top: 3.1rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 1px solid #c6c6c6;
+  @media only screen and (min-width: 48rem) {
+    padding-left: 0.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2.8rem;
+    border-top: none;
+  }
+`;
+
+const Title = styled.h2`
+  padding-bottom: 0.45rem;
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 1px solid #171717;
+  @media only screen and (min-width: 48rem) {
+    padding-left: 0;
+    padding-top: 0.2rem;
+    margin: 0;
+    margin-left: 0;
+    margin-top: 0.15rem;
+  }
+`;
+
+const Cards = styled.h2`
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-right: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  @media only screen and (min-width: 48rem) {
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0.5rem;
+    margin-right: 0;
+  }
+`;
 
 const photos = [
   {
@@ -27,9 +74,9 @@ const photos = [
 class Recommend extends Component {
   render() {
     return (
-      <div className="recommend">
-        <h2 className="recommend-title">WE RECOMMEND</h2>
-        <div className="recommend-cards">
+      <Wrapper>
+        <Title>WE RECOMMEND</Title>
+        <Cards>
           <div className="row">
             {photos.map((photo, num) =>
               <div className="col-xs-6 col-sm-3 col-md-3" key={num}>
@@ -37,8 +84,8 @@ class Recommend extends Component {
               </div>
             )}
           </div>
-        </div>
-      </div>
+        </Cards>
+      </Wrapper>
     );
   }
 }

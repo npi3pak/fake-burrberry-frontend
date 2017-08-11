@@ -1,16 +1,26 @@
 import React, { Component } from "react";
-import logo from "../img/logo.svg";
+import LogoImg from "../img/logo.svg";
+import styled from "styled-components";
 
-class Header extends Component {
-  render() {
-    return (
-      <header className="header">
-        <a>
-          <img className="header-logo" src={logo} alt="BURBERRY" />
-        </a>
-      </header>
-    );
+const Header = styled.header`
+  padding: 1rem;
+  border-bottom: 1px solid #c6c6c6;
+  @media only screen and (min-width: 48rem) {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
-}
+`;
 
-export default Header;
+const Logo = styled.img`
+  margin: auto;
+  display: block;
+  width: 138px;
+  height: 10px;
+`;
+
+export default () =>
+  <Header>
+    <a>
+      <Logo src={LogoImg} alt="BURBERRY" />
+    </a>
+  </Header>;

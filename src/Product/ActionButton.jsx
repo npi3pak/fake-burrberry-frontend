@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const Buttom = props =>
+const Button = props =>
   <button
     className="button"
     color={props.color}
@@ -10,4 +10,4 @@ const Buttom = props =>
     {props.title}
   </button>;
 
-export default InteractionButtom;
+export default Button;

@@ -1,41 +1,59 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 
-class Menu extends Component {
-  render() {
-    return (
-      <nav className="footer-menu">
-        <div className="row">
-          <div className="col-md-3">
-            <h4 className="footer-menu-title">CUSTOMER SERVICE</h4>
-            <a className="footer-menu-link">Contact Us</a>
-            <a className="footer-menu-link">Payment</a>
-            <a className="footer-menu-link">Shipping</a>
-            <a className="footer-menu-link">Returns</a>
-            <a className="footer-menu-link">Faqs</a>
-            <a className="footer-menu-link">Live Chat</a>
-            <a className="footer-menu-link">The Burberry App</a>
-            <a className="footer-menu-link">Store Locator</a>
-          </div>
-          <div className="col-md-3">
-            <h4 className="footer-menu-title">OUR COMPANY</h4>
-            <a className="footer-menu-link">Our History</a>
-            <a className="footer-menu-link">Burberry Group Plc</a>
-            <a className="footer-menu-link">Careers</a>
-            <a className="footer-menu-link">Corporate Responsibility</a>
-            <a className="footer-menu-link">Site Map</a>
-          </div>
-          <div className="col-md-3">
-            <h4 className="footer-menu-title">LEGAL &amp; COOKIES</h4>
-            <a className="footer-menu-link">Terms &amp; Conditions</a>
-            <a className="footer-menu-link">Privacy Policy</a>
-            <a className="footer-menu-link">Cookie Policy</a>
-            <a className="footer-menu-link">Accessibility Statement</a>
-            <a className="footer-menu-link">Japan Only - SCTL indications</a>
-          </div>
-        </div>
-      </nav>
-    );
+const Menu = styled.nav`
+  display: none;
+  @media only screen and (min-width: 48rem) {
+    display: block;
+    padding-top: 0.9rem;
   }
-}
+`;
 
-export default Menu;
+const Title = styled.h4`
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.875rem;
+`;
+
+const Link = styled.a`
+  padding-top: 0rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  display: block;
+  text-decoration: none;
+  color: #999999;
+`;
+
+export default props =>
+  <Menu>
+    <div className="row">
+      <div className="col-md-3">
+        <Title>CUSTOMER SERVICE</Title>
+        <Link>Contact Us</Link>
+        <Link>Payment</Link>
+        <Link>Shipping</Link>
+        <Link>Returns</Link>
+        <Link>Faqs</Link>
+        <Link>Live Chat</Link>
+        <Link>The Burberry App</Link>
+        <Link>Store Locator</Link>
+      </div>
+      <div className="col-md-3">
+        <Title>OUR COMPANY</Title>
+        <Link>Our History</Link>
+        <Link>Burberry Group Plc</Link>
+        <Link>Careers</Link>
+        <Link>Corporate Responsibility</Link>
+        <Link>Site Map</Link>
+      </div>
+      <div className="col-md-3">
+        <Title>LEGAL &amp; COOKIES</Title>
+        <Link>Terms &amp; Conditions</Link>
+        <Link>Privacy Policy</Link>
+        <Link>Cookie Policy</Link>
+        <Link>Accessibility Statement</Link>
+        <Link>Japan Only - SCTL indications</Link>
+      </div>
+    </div>
+  </Menu>;
