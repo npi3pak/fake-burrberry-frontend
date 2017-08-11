@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import InteractionButton from "./ActionButton";
 import styled from "styled-components";
 
 const Buttons = styled.div`
