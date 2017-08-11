@@ -15,7 +15,7 @@ const Photos = styled.div`
   }
 `;
 
-const PhotoContent = [
+const photoContent = [
   {
     standard: "img/bitmap4.png",
     big: "img/bitmap1@2x.png"
@@ -47,7 +47,7 @@ class Рhoto extends Component {
 
 export default props =>
   <Photos>
-    {PhotoContent.map((item, num) =>
+    {photoContent.map((item, num) =>
       <Рhoto standard={item.standard} big={item.big} key={num} />
     )}
   </Photos>;
