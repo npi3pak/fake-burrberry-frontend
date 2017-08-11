@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {FormattedNumber} from 'react-intl';
 import styled from "styled-components";
 
 const Link = styled.a`
@@ -62,7 +63,7 @@ class Card extends Component {
           {this.props.title}
         </Title>
         <Price>
-          {this.props.price}
+          <FormattedNumber value={this.props.price} style="currency" currency="RUB"/>
         </Price>
       </Link>
     );

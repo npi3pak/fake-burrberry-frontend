@@ -51,22 +51,22 @@ const Cards = styled.h2`
 const photos = [
   {
     title: "Emroided Hooded",
-    price: "27 000",
+    price: 27000,
     img: "img/recommend_img_1.jpg"
   },
   {
     title: "Relaxed Fit Stretch Jeans ",
-    price: "22 500",
+    price: 22500,
     img: "img/recommend_img_2.jpg"
   },
   {
     title: "Leather and House Check",
-    price: "120 000",
+    price: 120000,
     img: "img/recommend_img_3.jpg"
   },
   {
     title: "Leather Wingtip",
-    price: "46 000",
+    price: 46000,
     img: "img/recommend_img_4.jpg"
   }
 ];
