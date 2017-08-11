@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Color from "./Color";
 import Actions from "./Actions";
+import { FormattedNumber } from "react-intl";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -57,7 +58,9 @@ class Details extends Component {
     return (
       <Card>
         <Price>
-          <Title>110 000 руб.</Title>
+          <Title>
+            <FormattedNumber value={110000} style="currency" currency="RUB" />
+          </Title>
           <Item>Item 39428531</Item>
         </Price>
         <Color />
