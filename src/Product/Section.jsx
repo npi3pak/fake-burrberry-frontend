@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-const Item = styled.div`
+const Wrapper = styled.div`
   padding-left: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -67,23 +67,22 @@ const Content = styled.div`
   }
 `;
 
-class ListItem extends Component {
+class Section extends Component {
   render() {
     return (
       <div>
-        <Item active={this.props.active}>
+        <Wrapper active={this.props.active}>
           <Title>
             {this.props.title}
           </Title>
-        </Item>
-        {this.props.active
-          ? <Content>
-              <span dangerouslySetInnerHTML={{ __html: this.props.content }} />
-            </Content>
-          : null}
+        </Wrapper>
+        {this.props.active &&
+          <Content>
+            <span dangerouslySetInnerHTML={{ __html: this.props.content }} />
+          </Content>}
       </div>
     );
   }
 }
 
-export default ListItem;
+export default Section;

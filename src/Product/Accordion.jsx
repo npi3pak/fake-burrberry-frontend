@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListItem from "./ListItem";
+import Section from "./Section";
 
 const DescriptionContent = `
   <div>
@@ -23,19 +23,19 @@ const DescriptionContent = `
   </div>
 `;
 
-class List extends Component {
+class Accordion extends Component {
   render() {
     return (
       <div>
-        <ListItem
+        <Section
           title={"DESCRIPTION"}
           content={DescriptionContent}
           active={true}
         />
-        <ListItem title={"SHIPPING & RETURNS"} active={false} />
+        <Section title={"SHIPPING & RETURNS"} active={false} />
       </div>
     );
   }
 }
 
-export default List;
+export default Accordion;

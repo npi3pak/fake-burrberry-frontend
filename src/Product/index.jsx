@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Photos from "./Photos";
 import Details from "./Details";
-import List from "./List";
+import Accordion from "./Accordion";
 import Delivery from "./Delivery";
 import styled from "styled-components";
 
@@ -36,7 +36,7 @@ class Product extends Component {
             <Details />
           </div>
         </div>
-        <List />
+        <Accordion />
         <Delivery />
       </div>
     );
