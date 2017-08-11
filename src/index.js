@@ -17,6 +17,7 @@ const language =
   navigator.userLanguage;
 
 const languageWithoutRegionCode = language.toLowerCase().split(/[_-]+/)[0];
+
 ReactDOM.render(
   <IntlProvider locale={language}>
     <App />

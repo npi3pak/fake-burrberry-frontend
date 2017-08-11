@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LogoImg from "../img/logo.svg";
+import logoImg from "../img/logo.svg";
 import styled from "styled-components";
 
 const Header = styled.header`
@@ -21,6 +21,6 @@ const Logo = styled.img`
 export default () =>
   <Header>
     <a>
-      <Logo src={LogoImg} alt="BURBERRY" />
+      <Logo src={logoImg} alt="BURBERRY" />
     </a>
   </Header>;
