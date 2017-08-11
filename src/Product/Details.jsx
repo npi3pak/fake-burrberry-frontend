@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Color from "./Color";
 import Actions from "./Actions";
 import styled from "styled-components";
-// import InteractionButton from "./InteractionButton";
 
 const Card = styled.div`
   padding-left: 1rem;
