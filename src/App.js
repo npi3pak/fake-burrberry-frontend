@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div>
         <Helmet>
-          <meta charSet="utf-8" />
           <title>Long Cotton Gabardine Car Coat | Men - Burberry</title>
         </Helmet>
         <Header/>
