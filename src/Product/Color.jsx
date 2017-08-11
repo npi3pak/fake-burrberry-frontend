@@ -24,8 +24,8 @@ class Color extends Component {
       <div>
         <Title>Colour: Honey</Title>
         <ColorSelect>
-          <ColorButton name={"black"} color={"#000000"} active={false} />
-          <ColorButton name={"honey"} color={"#cfa880"} active={true} />
+          <ColorButton name="black" color="#000000" active={false} />
+          <ColorButton name="honey" color="#cfa880" active={true} />
         </ColorSelect>
       </div>
     );
