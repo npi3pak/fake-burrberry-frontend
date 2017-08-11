@@ -78,8 +78,8 @@ class Recommend extends Component {
         <Title>WE RECOMMEND</Title>
         <Cards>
           <div className="row">
-            {photos.map((photo, num) =>
-              <div className="col-xs-6 col-sm-3 col-md-3" key={num}>
+            {photos.map((photo, index) =>
+              <div className="col-xs-6 col-sm-3 col-md-3" key={index}>
                 <Card title={photo.title} price={photo.price} img={photo.img} />
               </div>
             )}

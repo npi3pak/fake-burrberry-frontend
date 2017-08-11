@@ -47,7 +47,7 @@ class Рhoto extends Component {
 
 export default props =>
   <Photos>
-    {photoContent.map((item, num) =>
-      <Рhoto standard={item.standard} big={item.big} key={num} />
+    {photoContent.map((item, index) =>
+      <Рhoto standard={item.standard} big={item.big} key={index} />
     )}
   </Photos>;
